@@ -1,0 +1,245 @@
+body {
+    background-color: rgba(82, 223, 82, 0.692);
+}
+
+header {
+    background: rgb(11,131,60);
+background: linear-gradient(180deg, rgba(11,131,60,1) 0%, rgba(11,130,55,1) 53%, rgba(4,56,11,0.9486169467787114) 100%);
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+nav {
+   
+    color: white;
+    width:100%
+
+    
+}
+main {
+    min-width:300px;
+    max-width:3000px;
+    margin: auto;
+    
+    
+}
+
+
+h1#tituloheader {
+    
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 36px;
+    
+}
+.introducao {
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: thin;
+    font-size: 20px;
+}
+#menu {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding:20px;
+    
+    
+    
+}
+.btn-home {
+    transition: 1s;
+    
+}
+.btn-contato{
+    transition: 1s;
+}
+.btn-curiosidades{
+    transition:  1s ;
+}
+.btn-home:hover{
+    color: rgb(23, 236, 34);
+    cursor: pointer;
+    
+}
+.btn-curiosidades:hover{
+    color: rgb(23, 236, 34);
+    cursor: pointer;
+    
+}
+.btn-contato:hover{
+    color: rgb(23, 236, 34);
+    cursor: pointer;
+    
+}
+nav ul {
+    list-style: none; 
+    display: flex; 
+
+    
+}
+
+nav li {
+    margin-right: 20px; 
+    padding-left: 30px;
+    
+    
+}
+section img {
+    width: 100%;
+}
+
+
+section#secao1 {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+   align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.137);
+    
+}
+#titulo {
+    font-family: 'iDroid', sans-serif;
+    color: rgba(3, 71, 3, 0.863)    ;
+    margin: auto;
+    font-size: 40px;
+    padding-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.342);
+}
+
+section#secao2 {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    align-items: center;
+     display: flex;
+     flex-direction: column;
+     margin:auto;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+}
+.mulher #irina{
+    width:1300px;
+    height: 350px;
+    width: 100%;
+}
+
+h2 {
+    background: rgb(11,131,60);
+background: linear-gradient(90deg, rgba(3, 214, 91, 0.336) 0%, rgba(11, 130, 55, 0.055) 53%, rgba(250, 250, 250, 0.192) 100%);
+    font-size: 33px;
+    padding-right: 60%;
+    color: rgba(3, 71, 3, 0.863);
+    font-family: 'iDroid', sans-serif;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
+}
+#sub1{
+    margin-right: 100px;
+}
+section#secao3 {
+    background-color: white;
+    width: 60%;
+    align-items: center;
+     display: flex;
+     flex-direction: column;
+     margin:auto;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+}
+h3{
+    background-color: rgba(3, 136, 3, 0.767);
+    font-size:22px;
+    height: 35px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.caixa-verde{
+    background-color:rgba(82, 223, 82, 0.493); 
+    width: 95%;
+   margin: 20px;
+   border-radius: 12px;
+}
+ #versoes{
+    display: grid;
+    color: black;
+    
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    
+}
+ .caixa-verde ul li:before {
+    content: ' ✓'
+  }
+.listas {
+    font-size: 25px;
+}
+footer{
+    background-color: aliceblue;
+}
+p { font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+
+}
+.primeiroparagrafo {
+    padding: 20px;
+    
+    text-indent: 40px;
+    line-height: 2.0;
+    
+}
+.links {
+    color: rgba(3, 71, 3, 0.863); 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.164);
+}
+.links:hover {
+    text-decoration: underline;
+    color: rgb(2, 75, 50);
+}
+.icone{
+    width: 15px;
+}
+.destaque {
+    color: rgba(3, 71, 3, 0.863); 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
+}
+
+.conclusao {
+    width:90%;
+    height:100px;
+    text-indent:30px;
+    text-align: center;
+}
+
+#rodape {
+    text-align: center;
+    background-color: #1A5A37;
+    color: white;
+    padding:5px;
+    margin: 20px 1px 2px 1px;
+    max-width: 90%;
+}
+.video {
+    background-color: rgba(54, 150, 54, 0.938);
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.video #thumbnail {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 30px;
+}
+
+.novoandroid #bugdroider{
+    margin: auto;
+    width: 80%;
+    display: block;
+}
